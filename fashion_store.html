@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        *{
+            padding: 10px;
+        }
+        .sections{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        header{
+            background-color: lightseagreen;
+            text-align: center;
+            padding: 30px;
+            color: white;
+            font-size: xx-large;
+        }
+        .section-2{
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-gap: 100px;
+        }
+        iframe{
+            width: 100%;
+            height: 800px;
+        }
+        a{
+            background-color: lightseagreen;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            padding: 15px;
+            margin-top: 16px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header> <span class="bi bi-cart3"></span>Fashion Store</header>
+    <div class="section-2">
+    <div class="sections">
+        <a href="home.html" target="link">Home Page</a>
+        <a href="man.html" target="link">Man Section</a>
+        <a href="women.html" target="link">Women Section</a>
+        <a href="kids.html" target="link">Kids Section</a>
+    </div>
+    <iframe src="home.html" name="link"></iframe>
+    
+    </div>
+</body>
+</html>
